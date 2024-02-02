@@ -17,6 +17,8 @@ Try it now: https://seladb.github.io/StarTrack-js/
   - The user can choose to store them in the browser's local storage for longer persistence
 - Preloading repos by URL, for example: <https://seladb.github.io/StarTrack-js/#/preload?r=seladb,pickledb-rs> will preload `seladb/pickledb-rs` upon loading the page
 
+## Something new 2 ...
+
 ## Something new...
 
 ## What's new in version 2.4?
