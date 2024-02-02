@@ -1,14 +1,12 @@
-name: Test deployment
+name: Build and test
 
 on:
-  pull_request:
-    branches: [master]
   push:
-    branches-ignore:
-      - master
+    branches: ["master"]
+  pull_request
 
 jobs:
-  test-deploy:
+  build-and-test:
     name: Test deployment
     runs-on: ubuntu-latest
     steps:
