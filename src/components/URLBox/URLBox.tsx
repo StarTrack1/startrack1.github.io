@@ -1,11 +1,11 @@
+import React from "react";
 import { Box, IconButton, Paper, TextField } from "@mui/material";
 import StarTrackTooltip from "../../shared/Tooltip";
 import ContentCopyIcon from "@mui/icons-material/ContentCopy";
 import LinkIcon from "@mui/icons-material/Link";
-import React from "react";
 
 const repoUrlParam = "r={user},{repo}";
-const baseUrl = `${window.location.origin}${window.location.pathname}#/preload?`;
+const baseUrl = `${window.location.href}preload?`;
 
 type RepoDetails = {
   username: string;
